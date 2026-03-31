@@ -1,0 +1,35 @@
+{
+  "blocks": [
+    {
+      "opcode": "motor_run",
+      "blockType": "command",
+      "text": "run motor IN1 [IN1] IN2 [IN2] direction [DIR] speed [SPEED]",
+      "arguments": {
+        "IN1": { "type": "number", "defaultValue": 5 },
+        "IN2": { "type": "number", "defaultValue": 6 },
+        "DIR": {
+          "type": "string",
+          "menu": "direction"
+        },
+        "SPEED": { "type": "number", "defaultValue": 150 }
+      }
+    },
+    {
+      "opcode": "motor_stop",
+      "blockType": "command",
+      "text": "stop motor IN1 [IN1] IN2 [IN2]",
+      "arguments": {
+        "IN1": { "type": "number", "defaultValue": 5 },
+        "IN2": { "type": "number", "defaultValue": 6 }
+      }
+    }
+  ],
+  "menus": {
+    "direction": {
+      "items": [
+        { "text": "forward", "value": "F" },
+        { "text": "backward", "value": "B" }
+      ]
+    }
+  }
+}
