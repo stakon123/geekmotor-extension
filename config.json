@@ -1,0 +1,19 @@
+{
+  "name": {
+    "en": "GeekMotor"
+  },
+  "description": {
+    "en": "Control 2 DC motors"
+  },
+  "author": "you",
+  "id": "geekmotor",
+  "version": "0.0.1",
+  "platform": ["win"],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "main": "main.ts",
+      "board": ["arduino"]
+    }
+  }
+}
