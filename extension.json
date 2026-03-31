@@ -1,0 +1,7 @@
+{
+  "name": "GeekMotor",
+  "description": "Control DC motors",
+  "platform": ["arduino"],
+  "blocks": "blocks.json",
+  "generator": "arduino.js"
+}
